@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Tables</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+       table{
+            margin:20px solid;
+            width: 80%;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+       th,
+       td{
+           border: 1px solid black;
+           padding: 5px
+       }
+
+       th{
+           background: blue;
+           color: black;
+       }
+
+       td{
+           text-align: center;
+           background: ivory;
+           color: black;
+       }
+
+       tr:hover{
+           background: pink;
+
+       }
+        
+    </style>
+</head>
+<body>
+    <header class="container">
+
+        <div class="nav-style">
+            <a href="../index.html">Table Basics</a>
+            <a href="#">Styling Tables</a>
+            <a href="calender.html">Creating a Calender</a>
+        </div>
+    
+    </header>
+
+        <main class="container">
+            <h1>Styling Tables</h1>
+
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                    <tr>
+                        <th>5 AM</th>
+                        <td>Wake up</td>
+                        <td>Wake up</td>
+                        <td>Wake up</td>
+                        <td>Wake up</td>
+                        <td>sleep</td>
+                    </tr>
+                        <tr>
+                            <th>6 AM</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>sleep</td>
+                        </tr>
+                            <tr>
+                                <th>7 AM</th>
+                                <td rowspan="2">Get to job and set up</td>
+                                <td rowspan="2">Get to job and set up</td>
+                                <td rowspan="2">Get to job and set up</td>
+                                <td rowspan="2">Get to job and set up</td>
+                                <td>sleep</td>
+                            </tr>
+                                <tr>
+                                    <th>8 AM</th>
+                                    <td>sleep</td>
+                                </tr>
+                                    <tr>
+                                        <th>9 AM</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                        <tr>
+                                            <th>10 AM</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                            <tr>
+                                                <th>11 AM</th>
+                                                <td>Lunch</td>
+                                                <td>Lunch</td>
+                                                <td>Lunch</td>
+                                                <td>Lunch</td>
+                                                <td></td>
+                                            </tr>
+                                                <tr>
+                                                    <th>12 AM</th>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                    <tr>
+                                                        <th>1 PM</th>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                    </tr>
+                                                        <tr>
+                                                            <th>2 PM</th>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+            </table>
+        </main>
+        
+    
+    
+        <footer class="container" style="text-align: center;">
+            &copy;Nathan Hutchinson 2021
+        </footer>
+</body>
+</html>
